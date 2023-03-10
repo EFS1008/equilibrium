@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  font-size:18px;
+  max-width: 100%;
+}
+.container {
+  max-width: 375px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  background-color:hsl(216, 50%, 16%) ;
+}
+.equilibrium-img {
+  width: 375px;
+  border-radius: 10px;
+}
+.label h1 {
+  color:hsl(0, 0%, 100%);
+}
+.description {
+  width: 290px;
+  line-height: 25px;
+  color:hsl(215, 51%, 70%);
+
+}
+
+.equilibrium-price-date {
+  display: flex;
+  justify-content: space-between;
+}
+.equilibrium-price {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  color:hsl(178, 100%, 50%);
+  
+}
+
+.equilibrium-date {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  color:hsl(215, 51%, 70%);
+}
+
+.break-point {
+  width: 375px;
+  height: 3px;
+  background-color:hsl(215, 32%, 27%) ;
+}
+
+
+.creator {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.creator-profile {
+  width: 30px;
+}
+
+.creator-info p {
+  color:hsl(215, 51%, 70%);
+}
+.creator span {
+  color: hsl(0,0%,100%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
